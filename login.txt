@@ -1,2 +1,4 @@
 archivo de login
 linea nueva
+----
+Esto es el bugfix de la tercera clase!
