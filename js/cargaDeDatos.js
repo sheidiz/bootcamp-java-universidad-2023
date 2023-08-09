@@ -45,7 +45,7 @@ const altura = 175;
 const altu = 175;
 console.log(altu === altura);
 
-const alturaStr = '175';
+const alturaStr = '175.5';
 console.log('===', altura === alturaStr); // === compara tipo y valor
 console.log('==', altura == alturaStr); // === compara valor
 
@@ -57,3 +57,4 @@ console.log('==', altura == alturaStr); // === compara valor
 console.log(+alturaStr)
 console.log(Number(alturaStr))
 console.log(parseInt(alturaStr))
+console.log(parseFloat(alturaStr))

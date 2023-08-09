@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <script>
+        function saludar() {
+            alert('mi primer evento v2');
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return false" action="">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+        </div>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido">
+        </div>
+        <div>
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso">
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" min="18">
+        </div>
+        <div>
+            <button onclick="add()">
+                Add
+            </button>
+        </div>
+    </form>
+    <script src="../js/arrays.js"></script>
+</body>
+</html>

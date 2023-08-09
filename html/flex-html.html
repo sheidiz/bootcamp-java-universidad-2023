@@ -5,85 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{
+        .container {
             display: flex;
             height: 100px;
             width: 100px;
             border: 1px solid black;
-            
-            flex-direction: row;/*row*/
-            align-items: center; /*flex-start*/
-            margin-bottom: 20px;
+            justify-content: center;
+            flex-direction: column-reverse;/*row*/
+            align-items: center;/*flex-start*/
         }
-        .item{
+        .item {
             width: 25px;
             height: 25px;
             border: 1px solid red;
         }
-        .banco{
-            margin: 12vh 6vw;
-            display: flex;
-            height: 6rem;
-            background-color: rgb(247, 247, 247);
-            border-radius: 2%;
-            padding: 0 1rem;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .banco img{
-            height: 7vh;
-        }
-        .banco a{
-            color: gray;
-            text-decoration: none;
-            font-size: 2.5rem;
-        }
-        .banco a:hover{
-            color: lightgrey;
-        }
-        .normal{
-            padding-right: 0.1rem;
-        }
-        .rounded{
-            padding: 0.5rem;
-            border: 1px solid black;
-            border-radius: 0px 8px 0px 8px;
-        }
-        .bar{
-            display: none;
-        }
-        /*media query*/
-        @media screen(min-width:900px) {
-            .bar{
-                display: block;
-            }
-        }
     </style>
 </head>
 <body>
-    <!--
-        <section class="container">
+    <section class="container">
         <div class="item">10</div>
         <div class="item">20</div>
-        </section>
-    -->
-    
-    <section class="banco">
-        <div>
-            <img src="../assets/bancoprovincia.svg">
-        </div>
-        <div>
-            <a class="normal" href="">Personas</a>
-            <a class="normal" href="">Empresas</a>
-            <a class="normal" href="">Emprendedores</a>
-            <a class="normal" href="">Provincia Compras</a>
-            <a class="normal" href="">Turnos web</a>
-            <a class="rounded" href="">BIP Personas</a>
-            <a class="rounded" href="">BIP Empresas</a>
-            <img class="bar" src="../assets/bars-solid.svg">
-        </div>
-        
     </section>
 </body>
 </html>
