@@ -1,0 +1,27 @@
+/*
+    NO vamos a ver:
+    - sass
+    - less
+    - scss
+
+*/
+
+/*selector de etiqueta*/
+body{
+    background-color: #6a5353;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*selector de etiqueta*/
+p {
+    color: white;  
+}
+/*selector por id*/
+#miparrafo {
+    color:aqua
+}
+/*selector por clase*/
+.miparrafo {
+    color:black;
+}
+/*inline > porId > etiqueta*/
+    

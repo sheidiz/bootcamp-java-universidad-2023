@@ -1,0 +1,21 @@
+@media screen and (min-width:1px) and (max-width:576px){
+    .carousel-item {
+        height: 300px !important;
+    }
+    .img1 {
+        border: 2px solid blue;
+        /*cambiar la imagen*/
+        background-image: url('https://picsum.photos/id/237/200/100');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: inherit;
+    }
+    .img2 {
+        border: 2px solid red;
+        /*cambiar la imagen*/
+        background-image: url('https://picsum.photos/id/238/200/100');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: inherit;
+    }
+}
